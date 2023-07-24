@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tobi - Mascota, asistente y amigo virtual</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Abre Header-->
+    <header>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary menu_nav">
+            <div class="container-fluid contenedor__menu ">
+              <img class="logotobi" src="./img/tobi-fondo-transparente-150.png" alt="Logo" class="d-inline-block align-text-top">
+              <a class="navbar-brand nombretobi" href="#inicio">Tobi</a>
+              <button class="navbar-toggler bg-light p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse menucentrado" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link menu__boton" aria-current="page" href="#mascota">Mascota</a>
+                  <a class="nav-link menu__boton" href="#asistente">Asistente</a>
+                  <a class="nav-link menu__boton" href="#amigo">Amigo</a>
+                  <a class="nav-link menu__boton" href="./testimonios.html">Testimonios</a>
+                  <a class="nav-link menu__boton" href="#contacto">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- Cierra Header-->
+    <main>
+      <!-- Abre VIDEO-->
+      <div class="container-fluid w-100 contenedor-video">
+        <div class="row">
+            <div class="col">
+                <iframe width="100%" height="800px" src="https://www.youtube.com/embed/1OF2U8wJOkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+      </div>
+      <!-- Cierra carrusel-->
+      <!-- Descripción inicial SOBRE TOBI-->
+      <section id="mascota" class="container tobiasistente container-testimoniostobi">
+        <h1>Qué dicen de Tobi</h1>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+              <p>Tobi es una propuesta cuyo objetivo es desarrollar una relación más saludable con nuestras interfaces digitales (redes sociales principalmente), disfrutar de una compañía virtual amena y divertida e invertir más tiempo en aquellas actividades y proyectos que nos inspiran y mejoran nuestra calidad de vida. 
+              </p>
+              <p>Tobi se alimentará de una selección de tus feeds de redes sociales, de ideas y proyectos personales que le propongas y una selección muy acotada de propuestas alineadas a tus intereses.
+              </p>
+              <p>A través de su lógica de gestión de proyectos, teoría de juegos y una personalidad entusiasta y tierna, te ayudará a desarrollar tus proyectos y actividades más importantes.
+              </p>
+            </div>
+            <div class="col-xs-0 col-sm-0 col-md-0 col-lg-4 sobretobi">
+              <img src="./img/tobi-compa2-1080.jpg" class="card-img-top w-100" alt="tobi mascota">
+              <img src="./img/tobi-compa2-1080.jpg" class="card-img-top w-80" alt="tobi mascota2">
+              <img src="./img/tobi-compa2-1080.jpg" class="card-img-top w-50" alt="tobi asistente">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Cierre descripción inicial-->
+    <!-- Abre FORM -->
+            <section class="containerform">
+            <div class=" col-6 container-fluid text-center">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Confiá, Tobi odia el spam.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Nombre</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Quiero recibir novedades</button>
+              </form>
+            </div>
+          </section>
+    <!-- Cierra FORM -->
+    </main>
+    <!-- Abre footer -->
+    <footer id="contacto" class="container-fluid  text-center container-social">
+      <div class="row">
+        <div class="col">
+          <a href="instagram.com"><img src="./img/icons/facebook-icon.png" alt="facebook"></a>
+        </div>
+        <div class="col">
+          <a href="youtube.com"><img src="./img/icons/instagram-icon.png" alt="instagram"></a>
+        </div>
+        <div class="col">
+          <a href="linkedin.com"><img src="./img/icons/youtube-icon.png" alt="youtube"></a>
+        </div>
+      </div>
+    </footer>
+    <!-- Cierra footer -->
+    <!-- JS BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
