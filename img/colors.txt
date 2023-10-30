@@ -1,0 +1,10 @@
+verde
+#1B998B
+violeta
+#2D3047
+crema
+#FFF4E4
+rojo
+#CA2E55
+lila
+#A88FAC

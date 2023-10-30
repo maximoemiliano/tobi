@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: 'cabin-general';
+    src: url(../fonts/Cabin/static/Cabin-Regular.ttf);
+}
+
+/*Estilos menú*/
+
+.menucentrado {
+    display: grid;
+    justify-content: center;
+    padding: 2vh;
+    background-color: #2D3047;
+}
+
+
+.menu__boton {
+    color: #FFF4E4;
+    text-align: center;
+    font-family: 'cabin-general';
+    font-size: 2em;
+}
+
+.menu__boton:hover {
+    color: #d88508;
+    font-family: 'cabin-general';
+    font-size: 2em;
+}
+
+.menu__boton:active {
+    color: #d3d3d3;
+}
+
+
+.menu_nav {
+    padding: 0;
+}
+
+.logotobi {
+    display: grid;
+    background-color: #ffffff;
+    width: 10%;
+    height: 10%;
+    border-radius: 200px;
+}
+
+.nombretobi {
+    color: #FFF4E4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5em;
+    font-weight: 500;
+    padding: 0 2vh;
+}
+
+.nombretobi:hover {
+    color: #d88508;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5em;
+    font-weight: 500;
+}
+
+.contenedor__menu {
+    background-color: #2D3047;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+
+}
+
+.contenedor__tobiasistente {
+    position: relative;
+    top: 30vh;
+}
+
+h1 {
+    font-family: 'cabin-general';
+    font-size: 5rem;
+    color: #2D3047;
+    font-style: normal;
+    font-weight: 600;
+    padding: 0 0 3vh 0vh;
+}
+
+.contenedor__carousel {
+    padding: 0;
+    z-index: 0;
+}
+
+.slidetobi h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    color: #FFF4E4;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.slidetobi p {
+    font-family: "cabin-general";
+    font-size: 1.4em;
+    color: #FFF4E4;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.tobiasistente {
+    text-align: center;
+    padding: 0vh 2vh 0 2vh;
+}
+
+.tobiasistente img {
+    width: 60%;
+    border-radius: 40px;
+}
+
+.tobiasistente p {
+    font-family: "cabin-general";
+    background-color: #A88FAC;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    margin: 10px;
+    padding: 30px;
+    font-size: 1.8em;
+}
+
+.tobiasistente1 {
+    text-align: center;
+    padding: 4vh 2vh;
+}
+
+.tobiasistente1 img {
+    width: 60%;
+    border-radius: 40px;
+}
+
+.tobiasistente1 p {
+    font-family: "cabin-general";
+    background-color: #A88FAC;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    margin: 10px;
+    padding: 30px;
+    font-size: 1.6em;
+}
+
+.tobiasistente2 {
+    text-align: center;
+    padding: 4vh 2vh;
+}
+
+.tobiasistente2 img {
+    width: 60%;
+    border-radius: 40px;
+}
+
+.tobiasistente2 p {
+    font-family: "cabin-general";
+    background-color: #A88FAC;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    margin: 10px;
+    padding: 30px;
+    font-size: 1.6em;
+}
+
+.tobiasistente3 {
+    text-align: center;
+    padding: 4vh 2vh;
+}
+
+.tobiasistente3 img {
+    width: 60%;
+    border-radius: 40px;
+}
+
+.tobiasistente3 p {
+    font-family: "cabin-general";
+    background-color: #A88FAC;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    margin: 10px;
+    padding: 30px;
+    font-size: 1.6em;
+}
+
+.botontobi {
+    font-family: "cabin-general";
+    font-size: 2em;
+    font-weight: 100;
+    color: #2D3047;
+    border-radius: 20px;
+    border: 2px solid #2D3047;
+}
+
+.botontobi:hover {
+    font-family: "cabin-general";
+    font-size: 2em;
+    font-weight: 400;
+    color: white;
+    border-radius: 20px;
+    background: #CA2E55;
+    border: 2px solid #A88FAC;
+}
+
+.contenedor__cards {
+    position: relative;
+    top: 30vh;
+    background-color: #2D3047;
+    padding: 3vw;
+}
+
+/*Estos tres estilos podrían automatizarse con un map y un each*/
+
+.tobicards h5 {
+    font-family: "cabin-general";
+    font-size: 3em;
+    font-weight: 100;
+    color: #1B998B;
+}
+
+.tobicards p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+    font-weight: 100;
+    color: #2D3047;
+}
+
+.tobicards2 h5 {
+    font-family: "cabin-general";
+    font-size: 3em;
+    font-weight: 100;
+    color: #CA2E55;
+}
+
+.tobicards2 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+    font-weight: 100;
+    color: #2D3047;
+}
+
+.tobicards3 h5 {
+    font-family: "cabin-general";
+    font-size: 3em;
+    font-weight: 100;
+    color: #d88508;
+}
+
+.tobicards3 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+    font-weight: 100;
+    color: #2D3047;
+}
+
+.contenedor__mapa {
+    background-color: #1B998B;
+    padding: 0px;
+    position: relative;
+    top: 30vh;
+}
+
+.contenedor__mapa h5 {
+    color: #FFF4E4;
+    font-family: "cabin-general";
+    font-size: 3em;
+    background-color: #1B998B;
+    padding: 14vh 0 0 0;
+}
+
+.contenedorformulario {
+    background-color: #4b5179;
+    padding: 4vh 0;
+    margin: 0vh;
+    position: relative;
+    top: 30vh;
+}
+
+.contenedorformulario label {
+    font-family: "cabin-general";
+    font-size: 1.8em;
+    color: #FCF0CC;
+}
+
+.textospam {
+    font-family: "cabin-general";
+    font-size: 1.6em;
+    color: #FCF0CC;
+    background-color: #ADB9E3;
+}
+
+.contenedorformulario button {
+    font-family: "cabin-general";
+    font-size: 2em;
+    color: #FCF0CC;
+    background-color: #1B998B;
+}
+
+.contenedorformulario button:hover {
+    font-family: "cabin-general";
+    font-size: 2em;
+    font-weight: 600;
+    color: #FCF0CC;
+    background-color: #CA2E55;
+}
+
+.container-redes {
+    position: relative;
+    top: 30vh;
+    padding: 5vh;
+    margin: 0;
+}
+
+.container-redes img {
+    width: 55px;
+}
+
+.contenedor__video {
+    padding: 10vh 0 0 0;
+    margin: 0;
+
+}
+
+.container-testimoniostobi p {
+    font-size: 2em;
+    font-style: italic;
+}
+
+/*Mobile*/
+
+@media only screen and (max-width: 500px) {
+    .contenedor__cards {
+        background-color: #CA2E55;
+    }
+
+    .sobretobi {
+        display: none;
+    }
+}
+
+/*Tablet*/
+
+@media only screen and (min-width: 992px) and (max-width: 1920px) {
+    .contenedor__cards {
+        background-color: #ADB9E3;
+    }
+
+    .contenedor__menu {
+        background-color: #CA2E55;
+    }
+
+    .menucentrado {
+        justify-content: end;
+        padding: 2vh;
+        background-color: #CA2E55;
+    }
+}
