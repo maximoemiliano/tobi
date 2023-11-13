@@ -1,0 +1,50 @@
+.card1 {
+    transition: all 2s ease-out;
+
+    &:hover {
+        scale:110%;
+        background-color:$color3;
+
+        h5 {
+            color:$color2;
+        }
+
+        p {
+            color: $color8;
+        }
+    }
+}
+
+.card2 {
+    transition: all 2s ease-out;
+
+    &:hover {
+        scale:110%;
+        background-color:$color3;
+
+        h5 {
+            color:$color2;
+        }
+
+        p {
+            color: $color8;
+        }
+    }
+}
+
+.card3 {
+    transition: all 2s ease-in-out;
+
+    &:hover {
+        scale:110%;
+        background-color:$color3;
+
+        h5 {
+            color:$color2;
+        }
+
+        p {
+            color: $color8;
+        }
+    }
+}

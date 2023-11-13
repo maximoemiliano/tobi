@@ -1,0 +1,35 @@
+.contenedor__cards {
+    position: relative;
+    top: 10vh;
+    background-color:$color2;
+    padding: 3vw;
+}
+.tobicards h5 {
+    @include textcard1;
+    color: $color4;
+}
+
+.tobicards p {
+    @include textcard2;
+    color: $color2;
+}
+
+.tobicards2 h5 {
+    @include textcard1;
+    color: $color1;
+}
+
+.tobicards2 p {
+    @include textcard2;
+    color:$color2;
+}
+
+.tobicards3 h5 {
+    @include textcard1;
+    color: $color7;
+}
+
+.tobicards3 p {
+    @include textcard2;
+    color:$color2;
+}

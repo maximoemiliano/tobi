@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: 'cabin-general';
+    src: url(../fonts/Cabin/static/Cabin-Regular.ttf);
+}
+
+img {
+    width:100%
+}
+
+h1 {
+    font-family: 'cabin-general';
+    font-size: $fuente-xxl;
+    color: $color2;
+    font-style: normal;
+    font-weight: 600;
+    padding: 0 0 3vh 0vh;
+}

@@ -1,0 +1,14 @@
+.contenedor__mapa {
+    background-color: $color4;
+    padding: 0px;
+    position: relative;
+    top: 30vh;
+
+    h5 {
+        color: $color6;
+        font-family: "cabin-general";
+        font-size: $fuente-xxl;
+        background-color: $color4;
+        padding: 4vh 0 0 0;
+    }
+}

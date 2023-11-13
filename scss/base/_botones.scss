@@ -1,0 +1,12 @@
+.botontobi {
+    @include textboton;
+    color: $color2;
+    border: 2px solid $color2;
+
+    &:hover {
+        @include textboton;
+        color: $color8;
+        background: $color1;
+        border: 2px solid $color3;
+    }
+}

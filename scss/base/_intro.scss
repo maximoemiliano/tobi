@@ -1,0 +1,20 @@
+.tobiasistente {
+    text-align: center;
+    padding: 0vh 2vh 0 2vh;
+
+    img {
+        width: 60%;
+        border-radius: 40px;
+    }
+    
+    p {
+        font-family: "cabin-general";
+        background-color: $color3;
+        border-radius: 5px;
+        color: $color8;
+        text-align: left;
+        margin: 10px;
+        padding: 30px;
+        font-size: $fuente-lg;
+    }
+}

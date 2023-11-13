@@ -1,0 +1,30 @@
+.contenedor__tobiasistente {
+    position: relative;
+    top: 30vh;
+}
+
+.tobiasistente2 {
+    text-align: center;
+    padding: 5vh 2vh;
+
+    img {
+        @include imgslider;
+    }
+    
+    p {
+        @include textslider1;
+    }
+}
+
+.tobiasistente3 {
+    text-align: center;
+    padding: 1vh 1vh;
+
+    img {
+        @include imgslider;
+    }
+    
+    p {
+        @include textslider2;
+    }
+}

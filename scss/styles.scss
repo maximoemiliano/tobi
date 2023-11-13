@@ -1,0 +1,17 @@
+@import "./utilidades/variables";
+@import "./base/_reset";
+@import "./utilidades/mixins";
+@import "./utilidades/animaciones";
+
+// Módulos
+
+@import "./base/menu";
+@import "./base/slider";
+@import "./base/intro";
+@import "base/botones";
+@import "./base/cards";
+@import "./base/mapa";
+@import "./base/form";
+@import "./base/redes";
+@import "./base/testimonios";
+@import "./base/asistente";
